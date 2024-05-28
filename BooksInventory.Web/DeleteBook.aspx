@@ -1,20 +1,17 @@
-﻿<%@ Page Async="true" Language="C#" AutoEventWireup="true" CodeBehind="DeleteBook.aspx.cs" Inherits="BooksInventory.Web.DeleteBook" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+﻿<%@ Page Async="true" Language="C#" AutoEventWireup="true" CodeBehind="DeleteBook.aspx.cs" Inherits="BooksInventory.Web.DeleteBook" MasterPageFile="~/Site.Master"%>
+  
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
         <div>
-            <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="125px">
+            <h2>Edit Book</h2>
+            <asp:DetailsView ID="DetailsView1" runat="server" Height="50px" Width="325px">
                
             </asp:DetailsView>
         </div>
-        <asp:Button ID="DeleteButton" runat="server" Text="Delete" OnClick="DeleteButton_Click" />
+    <div style="margin-top:10px">
+      <span style="width: 325px; display: inline-block; text-align:right">
+      <a href="Books.aspx" style="margin-right:210px">Back</a>
+      <asp:Button ID="DeleteButton" runat="server" Text="Delete" OnClick="DeleteButton_Click" />
+      </span>
+    </div>
         
-    </form>
-</body>
-</html>
+</asp:Content>
