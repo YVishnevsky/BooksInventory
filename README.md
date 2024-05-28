@@ -13,4 +13,4 @@ The project is configured to use local SQL Server by default. You can update dat
 * [ASP.NET Web Forms]([https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core](https://learn.microsoft.com/en-us/aspnet/web-forms/))
 * [Entity Framework 6]([https://docs.microsoft.com/en-us/ef/core/](https://learn.microsoft.com/en-us/ef/ef6/))
 * [MediatR](https://github.com/jbogard/MediatR)
-* [MSTest, [FluentAssertions](https://fluentassertions.com/), [NSubstitute]([https://github.com/moq](https://nsubstitute.github.io/))
+* [MSTest, [FluentAssertions](https://fluentassertions.com/), [NSubstitute](https://github.com/moq](https://nsubstitute.github.io/))
