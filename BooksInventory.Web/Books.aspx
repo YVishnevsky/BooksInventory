@@ -28,5 +28,6 @@
             </ItemTemplate>
             </asp:Repeater>
         </div>
+        <div><a href="AddBook">Add New Book</a></div>
          </asp:Content>
 
